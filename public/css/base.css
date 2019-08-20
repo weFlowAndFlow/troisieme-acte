@@ -1,0 +1,207 @@
+/* Font sizes :
+- Lato (nav bar) : 400(medium) + 700(blod)
+-Work sans : 300(light) + 500(medium)
+ */
+
+html {
+    font-size: calc(1em + 1vw)
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #FEFEFE;
+}
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/icons/eclipse.gif') center no-repeat #fff;
+}
+
+
+
+
+section {
+    padding-top: 5px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.content-main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-color-body-light {
+    color: #FEFEFE;
+}
+
+.text-color-body-dark {
+    color: #363534;
+}
+
+.color-light {
+    color: #FEFEFE;
+}
+
+.color-dark {
+    color: #363534;
+}
+
+.color-touch {
+    color: #BB4826;
+}
+
+.text-centered {
+    text-align: center;
+    align-content: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-variant: normal;
+    font-weight: 400;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    color: #e9b44c;
+}
+
+.text-regular {
+    color: #363534;
+    line-height: 1.6;
+    font-size: 0.7em;
+}
+
+/* BRACKETS */
+.brackets {
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 40px;
+    background-color: #BB4826;;
+    padding: 8px; /* épaisseur des crochets */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.brackets-right {
+    margin-right: 5%;
+    margin-left: auto;
+}
+
+.brackets-left {
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.brackets-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.brackets-base {
+    background-color: #FEFEFE;
+    height: 100%;
+    width: 100%;
+}
+
+.brackets-top-bar {
+    background-color: #FEFEFE;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    top: -8px;
+    height: 8px;
+}
+
+.brackets-bottom-bar {
+    background-color: #FEFEFE;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    bottom: -8px;
+    height: 8px;
+}
+
+.brackets-text-area {
+    background-color: #FEFEFE;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.brackets-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.mini-brackets {
+    width: 300px;
+    min-height: 40px;
+    padding: 0;
+    margin-bottom: 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+.mini-bracket-left, .mini-bracket-right {
+    border-top: 4px solid #e4572e;
+    border-bottom: 4px solid #e4572e;
+    width: 10px;
+    min-height: 40px;
+    display: inline-block;
+}
+
+.mini-bracket-left {
+    border-left: 4px solid #e4572e;
+}
+
+.mini-bracket-right {
+    border-right: 4px solid #e4572e;
+}
+
+.mini-bracket-content {
+    border-bottom: 4px solid transparent;
+    width: 90%;
+    min-height: 32px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.mini-bracket-content span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+}
+
+@media all and (max-width: 768px) {
+
+    .brackets-right {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .brackets-left {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+}

@@ -1,0 +1,133 @@
+
+#pyramide-prestations {
+    margin-bottom: 8%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.avoid-jump-in-display {
+    margin: 15px;
+    padding: 5px;
+}
+
+.column {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 320px;
+    max-width: 100%;
+}
+
+.right-column {
+    text-align: left;
+    margin-left: 3%;
+}
+
+.left-column {
+    text-align: right;
+    margin-right: 3%;
+}
+
+.prestation-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    max-width: 530px;
+}
+
+.prestation-name {
+    display: inline-block;
+    padding: 10px;
+    font-variant: all-small-caps;
+    font-size: 0.7em;
+}
+
+.name-left {
+    margin-right: -10px;
+}
+
+.name-right {
+    margin-left: -10px;
+}
+
+.name-left img {
+    margin-left: 10px;
+}
+
+.name-right img {
+    margin-right: 10px;
+}
+
+.popover-body {
+    font-size: 0.5em;
+}
+
+.prestation-line {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.first-line, .second-line, .third-line {
+    width: 100px;
+}
+
+.second-line {
+}
+
+.third-line {
+}
+
+.draw-line {
+    height: 9px;
+    position: relative;
+    top: 0;
+    border-color: #e4572e;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.prestation-icon-left {
+    display: inline-block;
+    margin-left: -10px;
+    padding: 0;
+}
+
+.prestation-icon-right {
+    display: inline-block;
+    margin-right: -10px;
+    padding: 0;
+}
+
+.prestation-icon-left img, .prestation-icon-right img {
+    border-color: #e4572e;
+    border-width: 3px;
+    border-style: solid;
+    padding: 2px;
+    border-radius: 50px;
+    width: 60px;
+    background-color: white;
+}
+
+.crochet-fermant, .crochet-ouvrant {
+    border-top: 4px solid #e4572e;
+    border-bottom: 4px solid #e4572e;
+    width: 15px;
+    height: 100%;
+    display: inline-block;
+}
+
+.crochet-fermant {
+    border-right: 4px solid #e4572e;
+    margin-right: -10px;
+}
+
+.crochet-ouvrant {
+    border-left: 4px solid #e4572e;
+    margin-left: -10px;
+}

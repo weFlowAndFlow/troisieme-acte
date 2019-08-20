@@ -1,0 +1,125 @@
+#realisations {
+    background-color: #363534;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.realisation-img{
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    width: 100%;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover .realisation-img {
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption > p:nth-child(1) {
+    font-size: 0.9em;
+}
+
+.caption > p:nth-child(2) {
+    font-size: 0.7em;
+}
+
+
+.opacity-low {
+    opacity: 0.5;
+}
+
+.link-div {
+    background-color: #fefefe;
+    background-image: url("../img/icons/link.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: auto;
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.link-div:hover {
+    background-color: #e9b44c;
+    transition: 0.3s;
+}
+
+
+.link-icon {
+    height: 20px;
+}

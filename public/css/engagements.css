@@ -1,0 +1,53 @@
+.engagement {
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    padding: 3%;
+}
+
+.engagement-title {
+    font-variant: all-small-caps;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.engagement-content {
+    padding-left: 0;
+    font-size: 0.7em;
+    vertical-align: middle;
+
+}
+
+.avant {
+    padding-left: 0;
+}
+
+.avant-content {
+    padding-left: 0;
+}
+
+.pendant {
+    padding-left: 40px;
+}
+
+.pendant-content {
+    padding-left: 40px;
+}
+
+.apres {
+    padding-left: 100px;
+}
+
+.apres-content {
+    padding-left: 100px;
+}
+
+
+@media all and (max-width: 768px) {
+
+
+}

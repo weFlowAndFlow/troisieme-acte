@@ -1,0 +1,140 @@
+#contact {
+    background-color: #fcfcfc;
+}
+
+.flex-display {
+    display: flex;
+    padding: 0 0;
+
+}
+
+.contact-info {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.brackets-container {
+    max-width: 300px;
+    margin: auto;
+}
+
+.contact-form {
+    display: inline-block;
+    width: 45%;
+    font-size: 0.75em;
+}
+
+.contact-info p {
+    text-align: center;
+    border-left: 4px solid #e4572e;
+    border-right: 4px solid #e4572e;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.form-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 6% 6%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+
+    -webkit-box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
+    -moz-box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
+    box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
+}
+
+.form p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#objet, #message, #submit {
+    width: 100%;
+}
+
+#nom, #prenom, #email, #tel {
+    width: 49%;
+    font-size: 0.75em;
+
+}
+
+#message {
+    height: 180px;
+    font-size: 0.75em;
+
+}
+
+.form input, #objet, #message {
+    margin: 0;
+    border: 2px solid transparent;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+
+.form-objet {
+    font-family: 'Lato', sans-serif;
+    color: #363534;
+    padding: 5px;
+    font-size: 0.75em;
+
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    color: #363534;
+    margin-top: -20px;
+    padding: 5px;
+    font-size: 0.75em;
+
+}
+
+#nom:focus, #prenom:focus, #email:focus, #tel:focus  {
+    outline: none;
+    border-bottom: 2px solid #e4572e;
+    transition: 0.5s;
+}
+
+#message:focus  {
+    outline: none;
+    border-left: 2px solid #e4572e;
+    transition: 0.5s;
+}
+
+#submit {
+    background-color: #e9b44c;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #d7a24b;
+}
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+    .flex-display {
+        display: block;
+    }
+
+    .contact-info, .contact-form {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+}

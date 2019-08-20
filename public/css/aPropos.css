@@ -1,0 +1,18 @@
+#aProposDescription {
+    background-image: url("../img/drawings/domain.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    min-height: 256px;
+    vertical-align: center;
+}
+
+.selfie {
+    width: 200px;
+}
+
+.selfieDiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
