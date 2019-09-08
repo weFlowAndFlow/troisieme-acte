@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
-    padding: 3%;
+    padding: 2%;
 }
 
 .engagement-title {
@@ -13,6 +13,7 @@
     text-align: left;
     vertical-align: middle;
     margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .engagement-content {

@@ -8,17 +8,15 @@ nav a .logo {
     height: 40px;
 }
 
-/*ul {*/
-/*    width: 100%;*/
-/*}*/
 
 .nav-color-change {
-    background-color: rgba(54, 53, 52, 0.6);
+    background-color: rgba(51, 46, 51, 0.8);
     transition: background-color 800ms linear;
 }
 
+
 .nav-color-change.scrolled {
-    background-color: rgb(254, 254, 254) !important;
+    background-color: rgba(251, 251, 251, 0.9) !important;
     transition: background-color 600ms linear;
     -webkit-box-shadow: 4px -16px 18px 5px rgba(168,168,168,1);
     -moz-box-shadow: 4px -16px 18px 5px rgba(168,168,168,1);
@@ -26,7 +24,7 @@ nav a .logo {
 }
 
 li {
-    margin-top: 4px;
+    margin-top: -2px;
 }
 
 .nav-content-color-change {
@@ -34,12 +32,12 @@ li {
     font-size: 0.6em;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    color: #fefefe;
+    color: #fffffc;
     border-bottom: 4px solid transparent;
 }
 
 .nav-content-color-change:hover {
-    color: #e9b44c;
+    color: #6096AF;
     transition: 0.5s;
 }
 
@@ -48,16 +46,20 @@ li {
     font-size: 0.6em;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    color: #1c1c1a;
+    color:  #332e33;
 }
 
 .nav-content-color-change.scrolled:hover {
-    color: #e9b44c;
+    color: #218681;
     transition: 0.5s;
 }
 
+.navbar-collapse {
+    background-color: inherit;
+}
+
 .active {
-    border-bottom: 4px solid #BB4826;
+    border-bottom: 4px solid #218681;
     transition: 1s;
 }
 
@@ -75,11 +77,11 @@ li {
 }
 
 .bar-color-change {
-    background-color: #fefefe;
+    background-color: rgba(251, 251, 251, 0.9);
 }
 
 .bar-color-change.scrolled {
-    background-color: #1c1c1a;
+    background-color: rgba(51, 46, 51, 0.9);
 }
 
 .change .bar1 {

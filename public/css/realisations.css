@@ -1,5 +1,5 @@
 #realisations {
-    background-color: #363534;
+    background-color: #332e33;
     min-height: 100vh;
 }
 
@@ -15,7 +15,7 @@
     font-size: 2.0em;
     letter-spacing: 1px;
     padding: 40px;
-    color: white;
+    color: #fffffc;
 }
 
 .gallery-image {
@@ -39,9 +39,9 @@
     width: 350px;
     overflow: hidden;
     display: inline-block;
-    color: white;
+    color: #fffffc;
     position: relative;
-    background-color: white;
+    background-color: #fffffc;
     border: 1px solid #e0e0e0;
     border-radius: 3px;
 }
@@ -97,7 +97,7 @@
 }
 
 .link-div {
-    background-color: #fefefe;
+    background-color: #fffffc;
     background-image: url("../img/icons/link.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +115,7 @@
 }
 
 .link-div:hover {
-    background-color: #e9b44c;
+    background-color: #218681;
     transition: 0.3s;
 }
 

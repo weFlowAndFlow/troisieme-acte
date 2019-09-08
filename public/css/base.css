@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    background-color: #FEFEFE;
+    background-color: #fffffc;
 }
 
 
@@ -46,23 +46,27 @@ section {
 }
 
 .text-color-body-light {
-    color: #FEFEFE;
+    color: #fffffc;
 }
 
 .text-color-body-dark {
-    color: #363534;
+    color: #332e33;
 }
 
 .color-light {
-    color: #FEFEFE;
+    color: #fffffc;
 }
 
 .color-dark {
-    color: #363534;
+    color: #332e33;
 }
 
 .color-touch {
-    color: #BB4826;
+    color: #218681;
+}
+
+.color-touch-darker {
+    color: #19535f;
 }
 
 .text-centered {
@@ -78,13 +82,17 @@ section {
     font-family: 'Lato', sans-serif;
     font-variant: normal;
     font-weight: 400;
-    margin-top: 6%;
-    margin-bottom: 8%;
-    color: #e9b44c;
+    margin-top: 4%;
+    margin-bottom: 5%;
 }
 
+.text-color-title {
+    color: #218681;
+}
+
+
 .text-regular {
-    color: #363534;
+    color: #332e33;
     line-height: 1.6;
     font-size: 0.7em;
 }
@@ -94,20 +102,20 @@ section {
     min-width: 200px;
     max-width: 800px;
     min-height: 40px;
-    background-color: #BB4826;;
+    background-color: #218681;;
     padding: 8px; /* épaisseur des crochets */
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .brackets-right {
-    margin-right: 5%;
+    margin-right: 1%;
     margin-left: auto;
 }
 
 .brackets-left {
     margin-right: auto;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .brackets-center {
@@ -116,13 +124,13 @@ section {
 }
 
 .brackets-base {
-    background-color: #FEFEFE;
+    background-color: #fffffc;
     height: 100%;
     width: 100%;
 }
 
 .brackets-top-bar {
-    background-color: #FEFEFE;
+    background-color: #fffffc;
     margin-left: 15px;
     margin-right: 15px;
     position: relative;
@@ -131,7 +139,7 @@ section {
 }
 
 .brackets-bottom-bar {
-    background-color: #FEFEFE;
+    background-color: #fffffc;
     margin-left: 15px;
     margin-right: 15px;
     position: relative;
@@ -140,7 +148,7 @@ section {
 }
 
 .brackets-text-area {
-    background-color: #FEFEFE;
+    background-color: #fffffc;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -162,19 +170,19 @@ section {
 }
 
 .mini-bracket-left, .mini-bracket-right {
-    border-top: 4px solid #e4572e;
-    border-bottom: 4px solid #e4572e;
+    border-top: 4px solid #218681;
+    border-bottom: 4px solid #218681;
     width: 10px;
     min-height: 40px;
     display: inline-block;
 }
 
 .mini-bracket-left {
-    border-left: 4px solid #e4572e;
+    border-left: 4px solid #218681;
 }
 
 .mini-bracket-right {
-    border-right: 4px solid #e4572e;
+    border-right: 4px solid #218681;
 }
 
 .mini-bracket-content {

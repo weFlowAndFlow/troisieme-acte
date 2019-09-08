@@ -1,5 +1,5 @@
 #contact {
-    background-color: #fcfcfc;
+    background-color: #fffffc;
 }
 
 .flex-display {
@@ -31,8 +31,8 @@
 
 .contact-info p {
     text-align: center;
-    border-left: 4px solid #e4572e;
-    border-right: 4px solid #e4572e;
+    border-left: 4px solid #218681;
+    border-right: 4px solid #218681;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
@@ -53,28 +53,27 @@
     box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
 }
 
-.form p {
+form p {
     text-align: left;
     margin-bottom: 15px;
 }
 
-#objet, #message, #submit {
+.objet, .message, .submit {
     width: 100%;
-}
-
-#nom, #prenom, #email, #tel {
-    width: 49%;
     font-size: 0.75em;
-
 }
 
-#message {
+.nom, .prenom, .email, .tel {
+    font-size: 0.75em;
+}
+
+.message {
     height: 180px;
     font-size: 0.75em;
 
 }
 
-.form input, #objet, #message {
+form input, .objet, .message {
     margin: 0;
     border: 2px solid transparent;
     font-family: 'Lato', sans-serif;
@@ -83,43 +82,52 @@
 
 .form-objet {
     font-family: 'Lato', sans-serif;
-    color: #363534;
+    color: #464646;
     padding: 5px;
     font-size: 0.75em;
 
 }
 
 .radio-buttons {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Lato', sans-serif;
-    color: #363534;
-    margin-top: -20px;
+    color: #464646;
     padding: 5px;
-    font-size: 0.75em;
+    font-size: 0.9em;
+    margin-top: -20px;
 
 }
 
-#nom:focus, #prenom:focus, #email:focus, #tel:focus  {
+.radio-buttons div div label {
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+
+
+.nom:focus, .prenom:focus, .email:focus, .tel:focus  {
     outline: none;
-    border-bottom: 2px solid #e4572e;
+    border-bottom: 2px solid #218681;
     transition: 0.5s;
 }
 
-#message:focus  {
+.message:focus  {
     outline: none;
-    border-left: 2px solid #e4572e;
+    border-left: 2px solid #218681;
     transition: 0.5s;
 }
 
-#submit {
-    background-color: #e9b44c;
+.submit {
+    border: none;
+    padding-top:4px;
+    padding-bottom: 4px;
+    background-color: #218681;
     border-radius: 5px;
+    color: #FFFFFC;
 }
 
-#submit:hover {
-    background-color: #d7a24b;
+.submit:hover {
+    background-color: #19535f;
 }
+
 
 
 
