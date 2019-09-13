@@ -40,7 +40,7 @@ section {
 }
 
 .content-main {
-    max-width: 1200px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,10 +80,11 @@ section {
 
 .title {
     font-family: 'Lato', sans-serif;
-    font-variant: normal;
+    font-variant: none;
     font-weight: 400;
     margin-top: 4%;
     margin-bottom: 5%;
+    text-transform: lowercase;
 }
 
 .text-color-title {
@@ -102,10 +103,14 @@ section {
     min-width: 200px;
     max-width: 800px;
     min-height: 40px;
-    background-color: #218681;;
-    padding: 8px; /* épaisseur des crochets */
+    background-color: #218681;
+    padding: 4px; /* épaisseur des crochets */
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.brackets-light {
+    background-color: #218681;
 }
 
 .brackets-right {
@@ -129,6 +134,10 @@ section {
     width: 100%;
 }
 
+.brackets-base-light {
+    background-color: #19535f;
+}
+
 .brackets-top-bar {
     background-color: #fffffc;
     margin-left: 15px;
@@ -136,6 +145,10 @@ section {
     position: relative;
     top: -8px;
     height: 8px;
+}
+
+.brackets-top-bar-light {
+    background-color: #19535f;
 }
 
 .brackets-bottom-bar {
@@ -147,10 +160,18 @@ section {
     height: 8px;
 }
 
+.brackets-bottom-bar-light {
+    background-color: #19535f;
+}
+
 .brackets-text-area {
     background-color: #fffffc;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.brackets-text-area-light {
+    background-color: #19535f;
 }
 
 .brackets-text {
@@ -158,6 +179,10 @@ section {
     font-size: 0.7em;
     font-style: italic;
     text-align: center;
+}
+
+.brackets-text-light {
+    color: #fffffc;
 }
 
 

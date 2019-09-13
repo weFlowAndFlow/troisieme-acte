@@ -1,7 +1,10 @@
 
-
 nav {
     height: 65px;
+}
+
+.container {
+    max-width: 1440px;
 }
 
 nav a .logo {
@@ -10,14 +13,14 @@ nav a .logo {
 
 
 .nav-color-change {
-    background-color: rgba(51, 46, 51, 0.8);
-    transition: background-color 800ms linear;
+    background-color: rgba(51, 46, 51, 1);
+    transition: background-color 1000ms linear;
 }
 
 
 .nav-color-change.scrolled {
-    background-color: rgba(251, 251, 251, 0.9) !important;
-    transition: background-color 600ms linear;
+    background-color: rgba(255, 255, 252, 1) !important;
+    transition: background-color 800ms linear;
     -webkit-box-shadow: 4px -16px 18px 5px rgba(168,168,168,1);
     -moz-box-shadow: 4px -16px 18px 5px rgba(168,168,168,1);
     box-shadow: 4px -16px 18px 5px rgba(168,168,168,1);
@@ -37,7 +40,7 @@ li {
 }
 
 .nav-content-color-change:hover {
-    color: #6096AF;
+    color: #218681;
     transition: 0.5s;
 }
 
@@ -77,11 +80,11 @@ li {
 }
 
 .bar-color-change {
-    background-color: rgba(251, 251, 251, 0.9);
+    background-color: rgba(251, 251, 251, 1);
 }
 
 .bar-color-change.scrolled {
-    background-color: rgba(51, 46, 51, 0.9);
+    background-color: rgba(51, 46, 51, 1);
 }
 
 .change .bar1 {

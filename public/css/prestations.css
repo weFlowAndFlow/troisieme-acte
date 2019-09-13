@@ -54,7 +54,7 @@
 #block-maintenance:hover img,
 #block-fonctionnalites:hover img
 {
-    background-color: #6096AF;
+    background-color: #DDDFDF;
     transition: 0.5s;
 }
 
@@ -98,8 +98,8 @@
     height: 9px;
     position: relative;
     top: 0;
-    border-color: #6096AF;
-    border-top-width: 4px;
+    border-color: #218681;
+    border-top-width: 2px;
     border-top-style: solid;
     margin: 0;
     padding: 0;
@@ -120,10 +120,10 @@
 }
 
 .prestation-icon-left img, .prestation-icon-right img {
-    border-color: #6096AF;
-    border-width: 3px;
+    border-color: #218681;
+    border-width: 2px;
     border-style: solid;
-    padding: 2px;
+    padding: 8px;
     border-radius: 50px;
     width: 60px;
     background-color: white;
@@ -131,21 +131,21 @@
 }
 
 .crochet-fermant, .crochet-ouvrant {
-    border-top: 4px solid #6096AF;
-    border-bottom: 4px solid #6096AF;
+    border-top: 2px solid #218681;
+    border-bottom: 2px solid #218681;
     width: 15px;
     height: 100%;
     display: inline-block;
 }
 
 .crochet-fermant {
-    border-right: 4px solid #6096AF;
-    margin-right: -10px;
+    border-right: 2px solid #218681;
+    margin-right: -12px;
 }
 
 .crochet-ouvrant {
-    border-left: 4px solid #6096AF;
-    margin-left: -10px;
+    border-left: 2px solid #218681;
+    margin-left: -12px;
 }
 
 
