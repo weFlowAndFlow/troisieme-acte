@@ -3,6 +3,13 @@
     min-height: 100vh;
 }
 
+.subtitle {
+    font-size: 0.6em;
+    text-align: center;
+    margin-bottom: 6%;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -123,3 +130,13 @@
 .link-icon {
     height: 20px;
 }
+
+/* modals */
+.text-modal {
+    font-size: 0.5em;
+}
+
+.modal-body-text {
+    font-size: 0.5em;
+}
+

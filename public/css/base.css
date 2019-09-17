@@ -15,23 +15,16 @@ body {
 }
 
 
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript,
-if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('../img/icons/eclipse.gif') center no-repeat #fff;
+
+a {
+    text-decoration: none;
+    color: #218681;
 }
 
-
-
+a:hover {
+    text-decoration: none;
+    color: #19535f;
+}
 
 section {
     padding-top: 5px;
@@ -40,7 +33,7 @@ section {
 }
 
 .content-main {
-    max-width: 1440px;
+    max-width: 1440px; /* if modification here, also change width in Menu.container */
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,8 +75,8 @@ section {
     font-family: 'Lato', sans-serif;
     font-variant: none;
     font-weight: 400;
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin-top: 70px;
+    margin-bottom: 40px;
     text-transform: lowercase;
 }
 
@@ -100,7 +93,7 @@ section {
 
 /* BRACKETS */
 .brackets {
-    min-width: 200px;
+    min-width: 100px;
     max-width: 800px;
     min-height: 40px;
     background-color: #218681;
@@ -225,6 +218,39 @@ section {
     line-height: 1em;
 }
 
+/* go back up button */
+#goBackUpButton {
+    display: inline-block;
+    background-color: #fffffc;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #218681;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+
+    font-size: 26px;
+    color: #218681;
+}
+#goBackUpButton:hover {
+    cursor: pointer;
+    background-color: #218681;
+    color: #fffffc;
+}
+#goBackUpButton:active {
+    background-color: #218681;
+}
+#goBackUpButton.show {
+    opacity: 0.6;
+    visibility: visible;
+}
+
 @media all and (max-width: 768px) {
 
     .brackets-right {
@@ -233,6 +259,11 @@ section {
     }
 
     .brackets-left {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .brackets-center {
         margin-right: 5%;
         margin-left: 5%;
     }

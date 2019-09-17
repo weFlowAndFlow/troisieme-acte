@@ -5,7 +5,6 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    position: relative;
 }
 
 
@@ -13,7 +12,7 @@
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 100%;
     vertical-align:middle;
 }
@@ -41,20 +40,21 @@
 }
 
 .prestation-block {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
     max-width: 530px;
 }
 
-#block-blog:hover img,
-#block-marchand:hover img,
-#block-vitrine:hover img,
-#block-application:hover img,
-#block-maintenance:hover img,
-#block-fonctionnalites:hover img
+
+
+#block-blog:hover .prestation-icon-left,
+#block-marchand:hover .prestation-icon-left,
+#block-vitrine:hover .prestation-icon-right,
+#block-application:hover .prestation-icon-right,
+#block-maintenance:hover .prestation-icon-left,
+#block-fonctionnalites:hover .prestation-icon-right
 {
-    background-color: #DDDFDF;
+    background-color: #218681;
     transition: 0.5s;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .first-line, .second-line, .third-line {
-    width: 100px;
+    width: 90px;
 }
 
 .second-line {
@@ -106,53 +106,69 @@
     width: 100%;
 }
 
-.prestation-icon-left {
+.prestation-icon-left, .prestation-icon-right {
     display: inline-block;
-    margin-left: -10px;
-    padding: 0;
-
-}
-
-.prestation-icon-right {
-    display: inline-block;
-    margin-right: -10px;
-    padding: 0;
-}
-
-.prestation-icon-left img, .prestation-icon-right img {
     border-color: #218681;
     border-width: 2px;
     border-style: solid;
-    padding: 8px;
     border-radius: 50px;
     width: 60px;
-    background-color: white;
+    height: 60px;
+    padding-top: 4px;
+}
+
+.prestation-icon-left {
+    margin-left: -8px;
+    padding-right: 12px;
+}
+
+.prestation-icon-right {
+    margin-right: -8px;
+    padding-left: 12px;
+}
+
+.prestation-icon-left img, .prestation-icon-right img {
+    width: 32px;
     transition: 0.5s;
 }
 
 .crochet-fermant, .crochet-ouvrant {
     border-top: 2px solid #218681;
     border-bottom: 2px solid #218681;
-    width: 15px;
+    width: 12px;
     height: 100%;
     display: inline-block;
 }
 
 .crochet-fermant {
     border-right: 2px solid #218681;
-    margin-right: -12px;
+    margin-right: -8px;
 }
 
 .crochet-ouvrant {
     border-left: 2px solid #218681;
-    margin-left: -12px;
+    margin-left: -8px;
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1000px) {
     .middle-column {
         height: 80px;
         width: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-column {
+    }
+
+    .first-line, .second-line, .third-line {
+        width: 70px;
+    }
+
+    .prestation-icon-left, .prestation-icon-right {
+        padding-top: 10px;
     }
 }
 

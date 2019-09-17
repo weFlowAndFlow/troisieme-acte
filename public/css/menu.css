@@ -3,7 +3,7 @@ nav {
     height: 65px;
 }
 
-.container {
+#menu .container {
     max-width: 1440px;
 }
 
@@ -28,6 +28,10 @@ nav a .logo {
 
 li {
     margin-top: -2px;
+}
+
+.nav-item {
+    padding-left: 5px;
 }
 
 .nav-content-color-change {

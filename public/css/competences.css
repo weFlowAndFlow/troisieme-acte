@@ -33,12 +33,20 @@
     vertical-align: middle;
 }
 
+.tooltip {
+    font-size: 0.5em;
+}
+
+#anchor {
+    height: 65px; /* same as MENU.height */
+}
+
 .processus {
     width: 100%;
     max-height: 700px;
     text-align: center;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .process {
@@ -54,6 +62,7 @@
 }
 
 .process img {
+    width: 64px;
     transition: transform .5s;
 }
 
@@ -72,8 +81,8 @@
 }
 
 .pill {
-    background-color: #fffffc;
-    color: #332e33;
+    background-color: #218681;
+    color: #fffffc;
     font-size: 18px;
     width: 30px;
     height: 30px;
@@ -90,8 +99,18 @@
 .collapse-content {
     color: #fffffc;
     font-size: 0.7em;
-    margin-top: 5%;
+    margin-top: 10px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media all and (max-width: 768px) {
+
+    .process {
+        height: 120px;
+    }
+    .process img {
+        width: 48px;
+    }
 }
