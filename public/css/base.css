@@ -80,6 +80,18 @@ section {
     text-transform: lowercase;
 }
 
+.subtitle {
+    font-size: 0.5em;
+    text-align: center;
+    margin-bottom: 6%;
+    font-style: normal;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .text-color-title {
     color: #218681;
 }

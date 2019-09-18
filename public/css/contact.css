@@ -11,16 +11,17 @@
 .contact-info {
     display: inline-block;
     width: 30%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin: 5%;
     font-size: 0.5em;
     font-weight: bold;
+    /*background-color: #ffcc00;*/
+
 }
 
 .brackets-container {
     max-width: 300px;
     margin: auto;
+    /*background-color: #F5871F;*/
 }
 
 .contact-form {
@@ -38,6 +39,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     font-weight: 500;
+
 }
 
 .form-container {
@@ -47,8 +49,6 @@
     border: 1px solid white;
     background-color: white;
     border-radius: 5px;
-
-
 
     -webkit-box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
     -moz-box-shadow: -3px 14px 35px -22px rgba(0,0,0,0.54);
@@ -92,15 +92,15 @@ form input, .objet, .message {
 
 .radio-buttons {
     color: #464646;
-    padding: 5px;
+    padding: 3px;
     font-size: 0.9em;
     margin-top: -20px;
 
 }
 
 .radio-buttons div div label {
-    margin-left: 8px;
-    margin-right: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
 }
 
 
@@ -135,15 +135,16 @@ form input, .objet, .message {
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1000px) {
 
     .flex-display {
         display: block;
     }
 
+
     .contact-info, .contact-form {
         display: block;
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
 
