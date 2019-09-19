@@ -70,9 +70,10 @@
     transform: scale(1.2);
 }
 
-.process p {
+.process h3 {
     text-align: center;
     margin-top: 20px;
+    font-size: 0.9em;
 }
 
 .processus .process a {

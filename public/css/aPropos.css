@@ -17,6 +17,7 @@
 #aProposDescription p {
     font-size: 0.8em;
     text-align: center;
+    background-color: white;
 }
 
 @media all and (max-width: 768px) {

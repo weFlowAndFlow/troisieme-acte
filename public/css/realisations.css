@@ -9,6 +9,9 @@
     padding: 0;
 }
 
+#realisations h3 {
+    font-size: 0.7em;
+}
 
 .heading {
     text-align: center;
@@ -26,8 +29,8 @@
 }
 
 .realisation-img{
-    height: 250px;
-    width: 350px;
+    height: 225px;
+    width: 300px;
     transform: scale(1.0);
     transition: transform 0.4s ease;
 }
@@ -35,8 +38,8 @@
 .img-box {
     box-sizing: content-box;
     margin: 10px;
-    height: 250px;
-    width: 350px;
+    height: 225px;
+    width: 300px;
     overflow: hidden;
     display: inline-block;
     color: #fffffc;
@@ -44,6 +47,10 @@
     background-color: #fffffc;
     border: 1px solid #e0e0e0;
     border-radius: 3px;
+}
+
+.img-box img {
+    width: 300px;
 }
 
 .caption {
