@@ -11,6 +11,21 @@ nav a .logo {
     height: 40px;
 }
 
+.menu-logo-noir {
+    display: none;
+}
+
+.menu-logo-blanc {
+    display: inline;
+}
+
+.menu-logo-noir.scrolled {
+    display: inline;
+}
+
+.menu-logo-blanc.scrolled {
+    display: none;
+}
 
 .nav-color-change {
     background-color: rgba(51, 46, 51, 1);
